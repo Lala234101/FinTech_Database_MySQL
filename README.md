@@ -1,9 +1,10 @@
 # FinTechLytics - Financial Analytics Database System
 
-#Project Overview
+# Project Overview
+
 FinTechLytics is a comprehensive financial analytics database system designed to track user portfolios, stock prices, and trading transactions. This project provides a robust backend infrastructure for fintech applications that need to manage user investments, analyze market data, and track trading activity.
 
-#Database Schema Features
+# Database Schema Features
 * User Management: Track registered users and their account details
 
 * Stock Information: Maintain comprehensive stock metadata including symbols, company names, and sectors
@@ -15,6 +16,7 @@ FinTechLytics is a comprehensive financial analytics database system designed to
 * Portfolio Tracking: Monitor user holdings with average cost calculations
 
 # Database Tables
+
 1. Users Table
 * Stores user account information
 
@@ -30,9 +32,9 @@ FinTechLytics is a comprehensive financial analytics database system designed to
 * Tracks symbols, company names, sectors, and listing dates
 
 3. StockPrices Table
-^Records historical price data
+*Records historical price data
 
-^Primary Key: price_id
+*Primary Key: price_id
 
 * Foreign Key: stock_id (references Stocks table)
 
@@ -52,11 +54,11 @@ FinTechLytics is a comprehensive financial analytics database system designed to
 
 * Primary Key: portfolio_id
 
-Foreign Keys: user_id and stock_id
+* Foreign Keys: user_id and stock_id
 
 Maintains current quantities and average purchase prices
 
-Entity Relationships
+# Entity Relationships
 Database Schema Diagram
 
 The database features these key relationships:
@@ -71,7 +73,7 @@ The database features these key relationships:
 
 * Stocks have many Portfolio entries (One-to-Many)
 
-Technical Implementation
+# Technical Implementation
 * Database System: PostgreSQL
 
 * Schema: flt_schema
@@ -93,7 +95,7 @@ FinTechLyticsDB SQL Scripts.txt: Individual table creation scripts
 
 FinTechLyticsDB.drawio.png: Visual database schema diagram
 
-Setup Instructions
+# Setup Instructions
 Clone this repository
 
 Execute the SQL scripts in your PostgreSQL environment:
