@@ -56,7 +56,7 @@ FinTechLytics is a comprehensive financial analytics database system designed to
 
 * Foreign Keys: user_id and stock_id
 
-Maintains current quantities and average purchase prices
+* Maintains current quantities and average purchase prices
 
 # Entity Relationships
 Database Schema Diagram
@@ -80,7 +80,7 @@ The database features these key relationships:
 
 * SQL Scripts:
 
-Complete database creation scripts
+** Complete database creation scripts
 
 Table definitions with constraints
 
