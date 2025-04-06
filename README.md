@@ -32,9 +32,9 @@ FinTechLytics is a comprehensive financial analytics database system designed to
 * Tracks symbols, company names, sectors, and listing dates
 
 3. StockPrices Table
-*Records historical price data
+* Records historical price data
 
-*Primary Key: price_id
+* Primary Key: price_id
 
 * Foreign Key: stock_id (references Stocks table)
 
@@ -80,7 +80,7 @@ The database features these key relationships:
 
 * SQL Scripts:
 
-** Complete database creation scripts
+Complete database creation scripts
 
 Table definitions with constraints
 
